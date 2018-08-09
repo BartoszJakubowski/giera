@@ -6,8 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Slovians</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/app.css">
     <link href="https://fonts.googleapis.com/css?family=Germania+One|Modern+Antiqua" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/app.css">
+    
 </head>
 <body>
     <header>
@@ -17,7 +18,7 @@
     <div class="login">
 
         <div class="logOrPas">
-            <div class="loginLittle">
+            <div class="loginLittle active">
                 <p>LOGIN</p>
             </div>
 
@@ -37,7 +38,7 @@
             <button class="button">Login</button>
         </div>
 
-        <div class="registerContent">
+        <div class="registerContent none">
             <h1>SLOVIANS</h1>
             <img class="miecze" src="img/miecze.png" >
 
@@ -45,7 +46,7 @@
 
             <p><input class="textbox" type="password"></p>
 
-            <button class="button">Login</button>
+            <button class="button">Register</button>
         </div>
 
     </div>

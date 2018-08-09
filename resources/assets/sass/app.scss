@@ -5,6 +5,10 @@ body{
   
 }
 
+.button {
+  font-family: 'Germania One', cursive;
+}
+
 .login{
   height: 400px;
   width: 400px;
@@ -50,10 +54,11 @@ body{
 
 h1{
   font-size: 3rem;
-  padding-left: 83px;
+  padding-left: 110px;
   position: absolute;
   color: white;
   padding-top: 20px;
+  font-family: 'Germania One', cursive;
 }
 
 .miecze{
@@ -75,8 +80,10 @@ h1{
   border-bottom-right-radius: 22px;
   border-top-left-radius: 22px;
   cursor: pointer;
-  background-color: brown;
-  // float: left;
+  border-left-style: none;
+  border-top-style: none;
+  border-right-style: none;
+  font-family: 'Germania One'
 }
 
 .loginLittle:hover, .registerLittle:hover{
@@ -94,7 +101,10 @@ h1{
   border-bottom-left-radius: 22px;
   border-top-right-radius: 22px;
   cursor: pointer;
-  // float: left;
+  border-top-style: none;
+  border-right-style: none;
+  border-left-style: none;
+  font-family: 'Germania One'
 }
 
 .logOrPas{
@@ -111,10 +121,6 @@ h1{
 
 .textbox1{
   margin-top: 35px;
-}
-
-.registerContent{
-  display: none;
 }
 
 .active{
